@@ -1,0 +1,21 @@
+:root {
+    --font_family: "Inter", sans-serif;
+    --font_size: 14px;
+    --background_color: #000;
+    --background_image: url("../img/wallpaper.png");
+    --image_border_color: #000;
+    --image_border_px:3px;
+    --imagewidth: 200px;
+    --image_height: 200px;
+    --title_color: rgb(139, 72, 72);
+    --description_color: #ebaa31;
+    --svg_color: darkseagreen;
+    --menu_background_color: transparent;
+    --menu_text_color: rgb(196, 162, 162);
+    --menu_active_text_color: #f1c40f;
+    --menu_border_color: rgb(196, 162, 162);
+    --menu_border_px: 3px;
+    --footer_background_color: darkseagreen;
+    --footer_text_color: #fff;
+    --footer_link_text_color: f1c40f;
+}
