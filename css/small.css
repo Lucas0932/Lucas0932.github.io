@@ -153,3 +153,7 @@ strong{
     color: var(--description-text);
     overflow: auto;
 }
+.description {
+    color: var(--description-text);
+    overflow: auto;
+}
