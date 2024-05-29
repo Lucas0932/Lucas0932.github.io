@@ -142,3 +142,8 @@ body {
   color: var(--footer_link_text_color); /* 連結顏色 */
   text-decoration: none; /* 移除底線 */
 }
+
+.steam img{
+  height: 50px;
+  width: 50px;
+}
