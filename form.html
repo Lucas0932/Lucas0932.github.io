@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+    <script>
+        function updateValue() {
+            let rangeValue = document.getElementById("rangeInput").value;
+            document.getElementById("output1").textContent = rangeValue;
+        }
+    </script>
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous">
+    </script>
+    <div class="col-md-12">
+        <h2>活動報名表單</h2>
+        <form method = "post" action = "{{url_for("index")}}">
+            <div class="row mb-3">
+                <label for="name" class="col-sm-2 col-form-label">姓名</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" placeholder="請輸入您的姓名" id="name" name="name" required>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="name" class="col-sm-2 col-form-label">電子郵件</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" placeholder="請輸入電子郵件" id="name" name="name" required>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="selectClub" class="col-sm-2 col-form-label">選擇社團</label>
+                <div class="col-sm-10">
+                    <select class="form-select" id="selectClub" name="" club>
+                        <option vlaue="">選擇社團</option>
+                        <option value="1">音樂社</option>
+                        <option value="2">籃球隊</option>
+                        <option value="3">程式設計社</option>
+                        <option value="3">戲劇社</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label class="col-sm-2 col-form-label">選擇性別</label>
+                <div class="col-sm-10">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="gender" id="genderMale" value="male">
+                        <label class="form-check-label" for="flexRadioDefault1">男</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="gender" id="genderFemale" value="female">
+                        <label class="form-check-label" for="flexRadioDefault1">女</label>
+                    </div>
+                    <input type="hidden" name="gender" value="male">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label class="col-sm-2 col-form-label">興趣</label>
+                <div class="col-sm-10">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="interestMusic" name = "music">
+                        <label class="form-check-label" for="interestMusic">音樂</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="interestSport" name = "sport">
+                        <label class="form-check-label" for="interestSport">運動</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="interestTechnology" name = technology>
+                        <label class="form-check-label" for="interestTechnology">科技</label>
+                    </div>
+                    <input type="hidden" name="music" value="off">
+                    <input type="hidden" name="sport" value="off">
+                    <input type="hidden" name="technology" value="off">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="commitmentLevel" class="col-sm-2 col-form-label">出席率預測 1~10</label>
+                <div class="col-sm-10">
+                    <input type="range" class="form-range" id="commitmentLevel" min="1" max="10" step="1" name = "attendence">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="newsletter" class="col-sm-2 col-form-label">訂閱電子報</label>
+                <div class="col-sm-10">
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" id="newsletter" name = "newsletter" value = "on">
+                        <label class="form-check-label" for="newsletter">是否訂閱社團的電子報</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-sm-10">
+                    <button type="submit" class="btn btn-primary">提交</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <!-- 引入 Bootstrap 5 的 JS 和 Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
