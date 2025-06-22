@@ -15065,6 +15065,16 @@ a.text-white:focus
     color: #718096 !important;
 }
 
+.text-program-title
+{
+    color: #00FFC6 !important;
+}
+
+.text-program-words
+{
+    color: #FFFFFF !important;
+}
+
 .text-black-50
 {
     color: rgba(31, 45, 61, .5) !important;
