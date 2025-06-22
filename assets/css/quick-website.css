@@ -8572,7 +8572,7 @@ button.bg-secondary:focus
 
 .bg-success
 {
-    background-color: #5cc9a7 !important;
+    background-color: #1ce35e !important;
 }
 
 a.bg-success:hover,
@@ -8585,7 +8585,7 @@ button.bg-success:focus
 
 .bg-info
 {
-    background-color: #50b5ff !important;
+    background-color: #b417e8 !important;
 }
 
 a.bg-info:hover,
@@ -8595,6 +8595,26 @@ button.bg-info:focus
 {
     background-color: #1d9fff !important;
 }
+
+.bg-pink
+{
+    background-color: #e51a9d !important;
+}
+
+a.bg-pink:hover,
+a.bg-pink:focus,
+button.bg-pink:hover,
+button.bg-pink:focus
+
+.bg-yellow
+{
+    background-color: #ffbe3d !important;
+}
+
+a.bg-yellow:hover,
+a.bg-yellow:focus,
+button.bg-yellow:hover,
+button.bg-yellow:focus
 
 .bg-warning
 {
@@ -8611,7 +8631,7 @@ button.bg-warning:focus
 
 .bg-danger
 {
-    background-color: #f25767 !important;
+    background-color: #ea7015 !important;
 }
 
 a.bg-danger:hover,
@@ -14939,6 +14959,14 @@ a.text-secondary:focus
     color: #b9c0d7 !important;
 }
 
+.text-blue
+{
+    color: #3197ce !important;
+}
+
+a.text-blue:hover,
+a.text-blue:focus
+
 .text-success
 {
     color: #5cc9a7 !important;
@@ -15314,9 +15342,19 @@ button.bg-dark-success:focus
     background-color: #ebf9f4;
 }
 
+.bg-gradient-technology
+{
+    background: linear-gradient(135deg, #667eea, #764ba2) !important;
+}
+
 .bg-gradient-success
 {
-    background: linear-gradient(50deg, #5cc9a7 0, #5cc9c8 100%) !important;
+    background: linear-gradient(50deg, #e97a16 0, #d22db4 100%) !important;
+}
+
+.bg-gradient-fail
+{
+    background: linear-gradient(50deg, #d22db4 0, #e97a16 100%) !important;
 }
 
 .bg-translucent-success
