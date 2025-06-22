@@ -8605,6 +8605,9 @@ a.bg-pink:hover,
 a.bg-pink:focus,
 button.bg-pink:hover,
 button.bg-pink:focus
+{
+    background-color: #1d9fff !important;
+}
 
 .bg-yellow
 {
@@ -8615,6 +8618,9 @@ a.bg-yellow:hover,
 a.bg-yellow:focus,
 button.bg-yellow:hover,
 button.bg-yellow:focus
+{
+    background-color: #1d9fff !important;
+}
 
 .bg-warning
 {
