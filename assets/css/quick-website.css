@@ -8601,6 +8601,26 @@ button.bg-info:focus
     background-color: #e51a9d !important;
 }
 
+.bg-pink1
+{
+    background-color: #e916a7 !important;
+}
+
+.bg-cyan
+{
+    background-color: #18dde7 !important;
+}
+
+.bg-red
+{
+    background-color: #ff0061 !important;
+}
+
+.bg-green
+{
+    background-color: #00ff16 !important;
+}
+
 a.bg-pink:hover,
 a.bg-pink:focus,
 button.bg-pink:hover,
@@ -15081,6 +15101,65 @@ a.text-white:focus
     color: #FFFFFF !important;
 }
 
+.text-athletic-title
+{
+    color: #000000 !important;
+}
+
+.text-athletic-words
+{
+    color: #0D2C3F !important;
+}
+
+.text-robotic-title
+{
+    color: #FFFFFF !important;
+}
+
+.text-robotic-words
+{
+    color: #E0E0E0 !important;
+}
+
+.text-music-title
+{
+    color: #F8EDEB !important;
+}
+
+.text-music-words
+{
+    color: #E8E8E8 !important;
+}
+
+.text-leader-title
+{
+    color: #F8F9FA !important;
+}
+
+.text-leader-words
+{
+    color: #F1F1F1 !important;
+}
+.text-acadmic-title
+{
+    color: #3C3C3C !important;
+}
+
+.text-acadmic-words
+{
+    color: #555555 !important;
+}
+
+.text-contact-title
+{
+    color: #1a1a1a !important;
+}
+
+.text-contact-words
+{
+    color: #333333 !important;
+}
+
 .text-black-50
 {
     color: rgba(31, 45, 61, .5) !important;
@@ -15089,6 +15168,11 @@ a.text-white:focus
 .text-white-50
 {
     color: rgba(255, 255, 255, .5) !important;
+}
+
+.text-kcis
+{
+    color: rgba(255, 255, 255, 0.85) !important;
 }
 
 .text-hide
@@ -15265,6 +15349,11 @@ button.bg-dark-primary:focus
     background: linear-gradient(50deg, #008aff 0, #003eff 100%) !important;
 }
 
+.bg-gradient-context-bottom
+{
+    background: linear-gradient(to bottom, #a3cfff, #e7ecf7) !important;
+}
+
 .bg-translucent-primary
 {
     background-color: rgba(0, 119, 219, .6) !important;
@@ -15358,9 +15447,44 @@ button.bg-dark-success:focus
     background-color: #ebf9f4;
 }
 
+.bg-gradient-skills
+{
+    background: linear-gradient(180deg, #f0f7ff, #e8f1fa) !important;
+}
+
+.bg-gradient-web
+{
+    background: linear-gradient(135deg, #fce4ec, #e3f2fd) !important;
+}
+
 .bg-gradient-technology
 {
     background: linear-gradient(135deg, #667eea, #764ba2) !important;
+}
+
+.bg-gradient-athletic
+{
+    background: linear-gradient(135deg, #2193b0, #6dd5ed) !important;
+}
+
+.bg-gradient-robotics
+{
+    background: linear-gradient(135deg, #2c5364, #0f2027) !important;
+}
+
+.bg-gradient-music
+{
+    background: linear-gradient(135deg, #3a1c71, #d76d77, #ffaf7b) !important;
+}
+
+.bg-gradient-leader
+{
+    background: linear-gradient(135deg, #1D2671, #C33764) !important;
+}
+
+.bg-gradient-acadmic
+{
+    background: linear-gradient(135deg, #dbeafe, #bfdbfe) !important;
 }
 
 .bg-gradient-success
@@ -15842,6 +15966,11 @@ button.bg-orange:focus
     background-color: #ffc431 !important;
 }
 
+.bg-orange
+{
+    background-color: #f79808 !important;
+}
+
 a.bg-yellow:hover,
 a.bg-yellow:focus,
 button.bg-yellow:hover,
@@ -15971,6 +16100,11 @@ button.bg-gray-dark:focus
 .bg-section-secondary
 {
     background-color: #fafbfe !important;
+}
+
+.bg-section-contact
+{
+    background: linear-gradient(#c2e9fb, #a1c4fd) !important;
 }
 
 .bg-section-light
