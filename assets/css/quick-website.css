@@ -15464,7 +15464,7 @@ button.bg-dark-success:focus
 
 .bg-gradient-athletic
 {
-    background: linear-gradient(135deg, #2193b0, #6dd5ed) !important;
+    background: linear-gradient(to bottom, #ffffff 0%, #f2f2f2 50%, #d3d3d3 100%) !important;
 }
 
 .bg-gradient-robotics
